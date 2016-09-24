@@ -6,10 +6,12 @@ In this workshop we gonna build a small application for manage events, also we g
 1. A code editor like [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/), [SublimeText](https://www.sublimetext.com/) or whatever you want
 2. Have installed NodeJS v5.x+ If you have not you can use [NVM](https://github.com/creationix/nvm) or download it from [NodeJS site](https://nodejs.org/en/download/)
 3. Install the Feathers CLI
+
     ```
     $ npm install -g feathers-cli
     ```
-4. Test if you feathers installation is working creating a new project and running it
+4. Test your feathers installation creating a new project with basic options and running it
+
     ```
     mkdir new-project
     cd new-project
@@ -17,7 +19,7 @@ In this workshop we gonna build a small application for manage events, also we g
     npm start
     ```
 5. Go to http://localhost:3030 to see the homepage
-5. Create an account a free acount in [mLab](https://mlab.com/) and [ElephantSQL](https://www.elephantsql.com/)
+5. Create a free acount in [mLab](https://mlab.com/) and [ElephantSQL](https://www.elephantsql.com/)
 
 ### What we gonna talk about?
 * Services using different databases
